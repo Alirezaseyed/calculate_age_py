@@ -1,9 +1,11 @@
 import unittest
 import datetime
+from calculate_age import calculate_age
 
 class TestAgeCalculator(unittest.TestCase):
     def test_calculate_age_valid(self):
         self.assertEqual(calculate_age(1990), datetime.datetime.now().year - 1990)
+        self.assertEqual(calculate_age(datetime.datetime.now().year), 0)
 
     def test_calculate_age_future(self):
         with self.assertRaises(ValueError):
