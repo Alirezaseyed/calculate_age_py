@@ -6,8 +6,8 @@ This repository contains a Python program to calculate the user’s age based on
 
 The program consists of two main parts:
 
-1. The main program (`improved_calculate_age.py`) which interacts with the user and calculates their age.
-2. Unit tests (`improved_test_calculate_age.py`) to verify the functionality of the age calculation.
+1. The main program (`calculate_age.py`) which interacts with the user and calculates their age.
+2. Unit tests (`test_calculate_age.py`) to verify the functionality of the age calculation.
 
 ## Main Program: improved_calculate_age.py
 
